@@ -6,7 +6,7 @@
     用户信息获取成功后可禁用此脚本
 
 [Script]
-cbdToken = type=http-request,pattern=https:\/\/chabaidao-gateway2\.shuxinyc\.com\/marketing\/minip\/activity\/queryDetail,requires-body=1,max-size=0,script-path=http://192.168.10.7:5500/cbdToken.js,script-update-interval=0
+cbdToken = type=http-request,pattern=https:\/\/chabaidao-gateway2\.shuxinyc\.com\/marketing\/minip\/activity\/queryDetail,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ZekeSong/Script/master/cbd%20token.js,script-update-interval=0
 
 [MITM]
 hostname = chabaidao-gateway2.shuxinyc.com
